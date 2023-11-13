@@ -1,0 +1,60 @@
+body{
+    font-family:Arial;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    width:80%;
+    padding: 30px;
+}
+.img{
+    width:100px;
+    height:100px;
+    float: left;
+}
+.header .details{
+    float: right;
+    width:40%;
+    text-align: right;
+
+}
+.clear{
+    clear: both;
+}
+.content{
+    width:80%;
+    padding: 30px;
+}
+.content h1 ,.content h3 {
+    text-align: center;
+}
+.content .details h4 {
+    width:100%;
+    float: right;
+    text-align: right;
+    margin: 3px;
+}
+.center {
+    
+    margin: 0 auto;
+    text-align: right;
+}
+.center h3{
+    margin:4px;
+    text-align: right;
+
+}
+.left{
+    float: left;
+    display: inline-block;
+}
+span{
+    margin: 10px;
+    padding: 5px;
+    background-color: #eee;
+}
+.right{
+    float: right;
+    display:inline-block;
+}

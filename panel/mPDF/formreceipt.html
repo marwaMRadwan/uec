@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript" src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form action="receipt.php" method="post" style="text-align: center;">
+        
+            <label>Project Name</label>
+        <select class="js-example-basic-single" style="width:50%;margin:15px auto;padding:15px" name="project">
+            <option value="1">Project 1</option>
+            <option value="2">Projecy 2</option>
+          </select><br>
+          <label>customer Name</label>
+          <select class="js-example-basic-single" style="width:50%;margin:15px auto;padding:15px" name="customer">
+            <option value="1">Mai</option>
+            <option value="2">Menna</option>
+          </select><br>
+          <label>Price in Numbers</label>
+          <input type="text" style="width:50%;margin:15px auto;padding:15px" name="price-dig">
+          <br>
+          <label>Price in Letters</label>
+          <input type="text" style="width:50%;margin:15px auto;padding:15px" name="price-let">
+          <br>
+          <label>Paying for</label>
+          <input type='text' style="width:50%;margin:15px auto; padding:15px" name="pay-for">
+          <br>
+        <input type="submit" name="submit_val" value="GENERATE PDF">
+        </form>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
